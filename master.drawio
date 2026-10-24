@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="RFT47dP8Y738KRg0smGK">
+    <mxGraphModel dx="1085" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-5" edge="1" parent="1" source="q_KKWMDCpaxilNjLNmoJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="q_KKWMDCpaxilNjLNmoJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-25" edge="1" parent="1" source="q_KKWMDCpaxilNjLNmoJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="q_KKWMDCpaxilNjLNmoJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="MIV&lt;br&gt;(Math integrity verifier)" vertex="1">
+          <mxGeometry height="80" width="80" x="160" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-18" edge="1" parent="1" source="q_KKWMDCpaxilNjLNmoJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.477;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" target="q_KKWMDCpaxilNjLNmoJ-17">
+          <mxGeometry relative="1" x="-0.1823" as="geometry">
+            <mxPoint x="200" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-27" edge="1" parent="1" source="q_KKWMDCpaxilNjLNmoJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="q_KKWMDCpaxilNjLNmoJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFCCCC;" value="" vertex="1">
+          <mxGeometry height="260" width="260" x="70" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;BES&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;(Bridge execution sandbox)" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;C/MGL&lt;/div&gt;&lt;div&gt;(Cuda/MLX ghost layer)&amp;nbsp;&lt;br&gt;Baseline info&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;PEP&lt;br&gt;MIA test&lt;/div&gt;&lt;div&gt;(Privacy exposure probe)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-29" edge="1" parent="1" source="q_KKWMDCpaxilNjLNmoJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;" target="q_KKWMDCpaxilNjLNmoJ-17">
+          <mxGeometry relative="1" x="-0.3129" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="600" />
+              <mxPoint x="336" y="600" />
+              <mxPoint x="336" y="601.9" />
+            </Array>
+            <mxPoint x="490" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-11" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCFF99;" value="" vertex="1">
+          <mxGeometry height="250" width="250" x="440" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;ModelChain&amp;nbsp;&lt;/div&gt;&lt;div&gt;Database&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="505" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Runtime resources logs" vertex="1">
+          <mxGeometry height="60" width="120" x="505" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-17" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF9999;" value="" vertex="1">
+          <mxGeometry height="260" width="260" x="75" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;C/MGL + OSM&lt;/div&gt;&lt;div&gt;(Cuda/MLX ghost layers + OS Syscall Monitor)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Component testers&lt;/div&gt;&lt;div&gt;(MCP/RAG/Skills)&lt;/div&gt;&lt;div&gt;(if used)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Top10 OWASP + Mitre Atlas pentest&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="145" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="q_KKWMDCpaxilNjLNmoJ-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Opentelemetry" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
