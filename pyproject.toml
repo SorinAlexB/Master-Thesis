@@ -1,0 +1,21 @@
+[project]
+name = "master-thesis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sorin Birchi", email = "sb.birchi.sorin@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.4.7",
+    "langchain-openai>=1.7.2",
+    "mlx>=0.32.4",
+]
+
+[project.scripts]
+master-thesis = "master_thesis:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
